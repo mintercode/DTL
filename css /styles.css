@@ -953,10 +953,12 @@ div .gallery {
   width: 200px;
   height: 200px;
   object-fit: cover;
+  margin: 7px 7px 7px;
 }
 
 .single-img .gallery {
-  padding: 20px 20px 20px;
+  border: 5px solid #6600cc;
+  object-fit: fill;
 }
 
 .single-img:hover {
