@@ -928,3 +928,46 @@ a {
   transform: translateY(5rem);
 }
 /* Test */
+
+/* Image rules */
+.wrapper h1 {
+  text-align: center;
+  padding-top: 5rem;
+  font-size: px;
+  color: #6600cc;
+  margin-bottom: 3rem;
+  margin-top: 5rem;
+  line-height: 1.1;
+  font-family: "Rock Salt", cursive;
+}
+
+.image-area {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+div .gallery {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.single-img .gallery {
+  padding: 20px 20px 20px;
+}
+
+.single-img:hover {
+  opacity: 0.5;
+  transition: 0.9s;
+}
+
+header .gallery {
+  margin-bottom: 15rem;
+}
+
+div .gallery {
+  margin-top: 10px;
+}
