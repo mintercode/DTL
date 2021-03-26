@@ -1,5 +1,5 @@
 body {
-  background: url(../images/transstaion2.png);
+  background: url(../images/transstaion2.webp);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1021,4 +1021,14 @@ div .gallery {
 }
 .fa:hover {
   opacity: 0.9;
+}
+
+img .pete {
+  width: 100px;
+  height: 100px;
+}
+
+img .logo {
+  width: auto;
+  height: auto;
 }
